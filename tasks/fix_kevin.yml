@@ -1,0 +1,9 @@
+- name: Fix kevin's shell
+  ansible.builtin.user:
+    name: kevin
+    shell: /bin/bash
+- name: Add kevin to uucp group
+  ansible.builtin.user:
+    name: kevin
+    groups: uucp
+    append: True
