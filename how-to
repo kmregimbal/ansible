@@ -1,0 +1,3 @@
+copy .vault_key and .ansible.cfg from existing computer
+install ansible (pacman or shelly)
+ansible-pull 
