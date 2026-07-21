@@ -17,13 +17,13 @@
     - name: Loop through various tasks
       ansible.builtin.include_tasks: "tasks/{{ item }}"
       loop:
-        - fix_kevin_shell.yml
+        - fix_kevin.yml
         - packages.yml
         - install_aur_package.yml
         - fix_mdns.yml
         - configure_cctv.yml
         - make_vim_default.yml
         - copy_ssh_stuff.yml
-        - workaround_gpu_issue.yml
+#        - workaround_gpu_issue.yml
         - configure_tailscale.yml
 #        - show_facts.yml

@@ -20,7 +20,7 @@
       - cctv-viewer-git
       # - thonny
       - nordvpn-bin
-      - rustdesk-bin
+      # - rustdesk-bin
       # - easyeda-pro-bin
       # - brother-hll2300d
       # - 1password
